@@ -18,6 +18,24 @@ Detect best-selling and low-performing products
 
 Support data-driven menu and inventory decisions
 
+🗄️ Data Preparation (SQL Layer)
+
+Before building the dashboard in Power BI, SQL Server Management Studio (SSMS) was used to query and prepare the dataset.
+
+Key tasks included:
+
+Writing SQL queries to calculate KPIs (Revenue, Orders, Quantity Sold)
+
+Aggregating daily and monthly sales trends
+
+Computing category and size-wise sales percentages
+
+Identifying top and bottom performing products
+
+Creating clean, analysis-ready tables for Power BI
+
+All SQL scripts and query outputs are included in the project documentation.
+
 📊 Features
 
 Dynamic KPI cards (Revenue, Orders, Quantity Sold, Average Order Value)
@@ -46,15 +64,15 @@ Underperforming items can be reviewed for improvement or removal
 
 🛠️ Technologies Used
 
+SQL Server & SSMS
+
+SQL (data extraction and KPI calculations)
+
 Power BI
 
-DAX (Data Analysis Expressions)
+DAX
 
-Data Modeling (Star Schema)
-
-Data Cleaning and Transformation
-
-CSV / Excel datasets
+Data Modeling
 
 Author
 Ankitha Tapa
